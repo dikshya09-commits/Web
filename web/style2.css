@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* background-image: url("./assests/flower.jpg"); */
+}
+
+/* h1{
+    color:blue;
+    font-size: 4vh;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 30px;
+    padding: 40px;
+}
+
+p{
+    color:rgb(255, 0, 81);
+    font-size: 30px;
+    text-align: center;
+} */
+
+/* Border-Style */
+
+/* .brd{
+  background-color: blue;
+  text-align: center;
+  width: 120px;
+  height: 150px; 
+   border-width: 3px;
+   border-style: dotted;
+   border-color: black;   
+   border: 2px solid red;
+} */
+
+/* <!-- Example of Class-Selector --> */
+/* .br{
+        color: green;
+    }
+     */
+
+/* Example of ID-Selector */
+/* #title{
+        color: brown;
+     } */
+
+/* Example of Child-Selector */
+/* .child > h2{
+    color: red;
+}
+
+.child > p{
+    color: blue;
+} */
+
+/* Pseudo Classes -> Single : use hota hai.*/
+/* li:first-child{
+    color: green;
+}
+
+li:last-child{
+    color: blue;
+} */
+
+/* Pseudo Elements -> Double :: use hota hai. */
+/* .double > h2::before{
+content: "🔥 ";
+}
+
+.double > h2::after{
+content:  " 🚀";
+} */
+
+/* ::first-letter -> First letter style karta hai. */
+/* .double > p::first-letter{
+    font-size: 40px;
+   color: red;  
+} */
+
+/* ::first-line -> First line style karta hai */
+/* .double > p::first-line{
+   color: blue;
+} */
+
+/* Hover-Effect on Button (transition & transform ) */
+/* button{
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    margin: 20px;
+    transition: all 0.3s ease;
+  } 
+
+ button:hover{
+    background-color: #1d4ed8;
+    transform: translateX(15px);
+ }
+
+button:focus{
+   border: 2px solid rgb(10, 167, 78);
+} */
+
+/* flex */
+/* .container{
+   display: flex;
+   justify-content: space-around;
+   background-color: #a37373;
+   height: 10vw;
+   align-items: center;
+   gap: 25px;
+} */
+
+/* Positioning */
+/* .position{
+    width: 20vh;
+    height: 20vh;
+    background-color: #32df3e;
+    position: relative;
+    top: 20px;
+    left: 20px;
+} */
+
+/* Z-index */
+.red{
+width:100px;
+height:100px;
+background:red;
+
+position:absolute;
+z-index:1;
+}
+
+.blue{
+width:100px;
+height:100px;
+background:blue;
+
+position:absolute;
+left:50px;
+
+z-index:2;
+}
