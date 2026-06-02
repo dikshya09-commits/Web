@@ -30,7 +30,7 @@ Examples:
 <a>Link</a>
 👉 Width & Height kaam nahi karti.
 
-(c) inline-block
+(c) inline-block  
 Inline bhi rahega aur width-height bhi kaam karegi.
 -> display: inline-block;
 
@@ -71,9 +71,12 @@ justify-content: space-between;
 justify-content: space-around;
 justify-content: space-evenly;
 
-align-items
+⭐align-items
 Vertical alignment
-align-items: center;
+align-items: center  --> Vertical center.
+align-items:flex-start  --> Top.
+align-items:flex-end --> Bottom. 
+
 
 ⭐ gap
 Items ke beech spacing
@@ -229,3 +232,49 @@ position: fixed;
 z-index: 999;
 
 gap: 20px;
+
+4. flex-direction
+Items kis direction me jayenge.
+
+-> row (default)
+flex-direction:row;
+1 2 3
+
+-> flex-direction:column;
+1
+2
+3
+
+-> row-reverse
+flex-direction:row-reverse;
+3 2 1
+
+-> column-reverse
+flex-direction:column-reverse;
+3
+2
+1
+
+
+
+Perfect Center ⭐⭐⭐⭐⭐
+Interview me bahut pucha jata hai.
+
+.container{
+   display:flex;
+   justify-content:center;
+   align-items:center;
+   height:100vh;
+}
+-->Element screen ke exact center me aa jayega.
+
+🚀🚀 Top 5 Most Important 🚀🚀
+display:flex;
+justify-content:center;
+justify-content:space-between;
+align-items:center;
+gap:20px;
+flex-wrap:wrap;
+
+-->Agar ye 5 concepts strong ho gaye, toh tum 80% frontend layouts (Navbar, Cards, Dashboard, Hero Section, Footer) bana sakte ho.
+

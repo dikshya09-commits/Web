@@ -125,7 +125,7 @@ button:focus{
 } */
 
 /* Z-index */
-.red{
+/* .red{
 width:100px;
 height:100px;
 background:red;
@@ -143,4 +143,23 @@ position:absolute;
 left:50px;
 
 z-index:2;
+} */
+
+/* Flex-direction */
+/* .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+   flex-direction: column;
+} */
+
+.container {
+  height: 70vh;
+  color: brown;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;   
+  align-items: center;
+  justify-content:space-around
 }
