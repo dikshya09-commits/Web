@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 h1 {
   font-size: 48px;
   color: blueviolet;
@@ -23,4 +28,13 @@ button:hover {
   transform: 0.1 ease;
   background-color: rgb(243, 124, 44);
   color: green;
+}
+
+.pst {
+  background-color: rgb(55, 255, 0);
+  width: 10vh;
+  height: 10vh;
+  position: relative;
+  left: 150px;
+  top: 50px;
 }
