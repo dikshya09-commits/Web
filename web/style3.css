@@ -1,0 +1,26 @@
+h1 {
+  font-size: 48px;
+  color: blueviolet;
+  text-align: center;
+}
+
+p {
+  font-size: 18px;
+  color: chartreuse;
+}
+
+button {
+  padding: 5px 10px;
+  background-color: rgb(219, 243, 243);
+  border-radius: 10px;
+  border: solid;
+  font-size: 20px;
+  cursor: pointer;
+  transform: 0.8 ease;
+}
+
+button:hover {
+  transform: 0.1 ease;
+  background-color: rgb(243, 124, 44);
+  color: green;
+}
