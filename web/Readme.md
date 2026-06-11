@@ -682,7 +682,7 @@ button:hover{
    transform: translateY(-5px) scale(1.05);
 }
 
-3. Keyframe Animations ⭐⭐⭐⭐⭐
+3. ⭐⭐⭐⭐⭐ Keyframe Animations ⭐⭐⭐⭐⭐
 
 -> Automatic animation ke liye use hota hai.
 

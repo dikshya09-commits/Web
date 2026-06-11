@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  color: brown;
+  text-align: center;
+  background-color: rgb(19, 17, 18);
+}
+
+p {
+  color: rgb(102, 0, 255);
+  text-align: center;
+  padding: 10px;
+}
+
+.section1 {
+  padding: 8px;
+  color: blue;
+}
+
+.section2 {
+  padding: 8px;
+  color: cornflowerblue;
+}

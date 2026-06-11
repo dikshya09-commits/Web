@@ -154,7 +154,7 @@ z-index:2;
    flex-direction: column;
 } */
 
-.container {
+/* .container {
   height: 70vh;
   color: brown;
   border: 2px solid black;
@@ -162,4 +162,221 @@ z-index:2;
   justify-content: center;   
   align-items: center;
   justify-content:space-around
+} */
+
+/* OverFlow-Scroll */
+
+/* .ovl{
+    height: 410px;
+    width: 450px;
+    border: 2px solid black;
+    overflow: scroll;
+}
+
+.ovl > img{
+    height: 100px;
+    width: 80px;
+    float: left;
+}
+
+
+.ovl > .img2{
+    height: 100px;
+    width: 80px;
+    float: right;
+}
+ */
+
+/* Animations & Effects - transform */
+
+/* .main-box {
+  width: 400px;
+  height: 300px;
+  background-color: rgb(196, 45, 45);
+  margin: 80px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box1 {
+  width: 70px;
+  height: 70px;
+  background-color: rgb(45, 196, 55);
+  transition: all 0.5s ease;
+  cursor: pointer;
+} */
+
+/* .box1:hover {
+  transform: scale(1.2);
+  transform: translateY(-20px);
+  transform: translateX(20px);
+  transform: rotate(45deg);
+} */
+
+/* .box1:hover{
+  transform: translateX(-20px) scale(1.1);
+} */
+
+/* Keyframe Animations */
+/*  Red box left se right move karega continuously. */
+/* animation: name duration timing-function iteration-count; */
+/* animation: bounce 1s ease infinite; */
+
+/* .box {
+  width: 100px;
+  height: 100px;
+  background: red;
+  animation: move 5s infinite;
+} 
+
+ @keyframes move {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(700px);
+  }
+} */
+
+/* Box upar niche jump karega. */
+/* .box {
+  width: 100px;
+  height: 100px;
+  background: red;
+  animation: bounce 2s infinite;
+  border-radius: 50%;
+  margin: 170px auto;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-50px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+} */
+
+/* Element dheere dheere visible hoga. */
+/* .box {
+  width: 500px;
+  height: 500px;
+  background: rgb(192, 109, 109);
+  border-radius: 50%;
+  margin: 70px auto;
+  animation: fadeIn 10s;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+} */
+
+/* Box continuously ghoomega. */
+/* .box {
+  width: 100px;
+  height: 100px;
+  background: rgb(99, 18, 18);
+  margin: 70px auto;
+  animation: spin 5s infinite linear;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+/* Move-Reactange-Shape */
+/* .main-box {
+  width: 400px;
+  height: 300px;
+  background-color: rgb(196, 45, 45);
+  margin: 80px auto;
+}
+
+.box1 {
+  width: 70px;
+  height: 70px;
+  background-color: rgb(45, 196, 55);
+  transition: all 0.5s ease;
+  cursor: pointer;
+  animation-name: mover;
+  animation-duration: 2s;
+}
+
+@keyframes mover {
+    0%{
+       transform: translate(0,0);
+    }
+    25%{
+       transform: translate(200px,0);
+    }
+    50%{
+       transform: translate(200px,200px);
+    }
+    75%{
+       transform: translate(0,200px);
+    }
+} */
+
+/* Jo image me dikh raha hai usme container rotate ho raha hai,
+ aur box container ke edge par rakha gaya hai. Isse orbit effect banta hai. */
+
+body {
+  margin: 0;
+  background: teal;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 300px;
+  height: 300px;
+  border: 2px solid white;
+  border-radius: 50%;
+
+  position: relative;
+
+  animation: orbit 4s linear infinite;
+}
+
+.box {
+  width: 80px;
+  height: 80px;
+  background: white;
+  border-radius: 50%;
+
+  position: absolute;
+  top: -40px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+@keyframes orbit {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
 }
