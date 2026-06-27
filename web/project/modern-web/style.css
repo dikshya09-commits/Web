@@ -279,7 +279,7 @@ footer {
   min-height: 50vh;
   display: flex;
   justify-content: space-around;
-  background-color: #8cb3d1;
+  background-color: #cedfec;
 }
 
 .footer-con1 {
@@ -291,5 +291,9 @@ footer {
 
 .footer-con1 a {
   text-decoration: none;
-  color: rgb(109, 109, 211);
+  color:#03487d;
+}
+
+.footer-con1 h2{
+  color: #033256;
 }
