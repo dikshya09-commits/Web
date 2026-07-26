@@ -1,0 +1,118 @@
+/* Google Font */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.card-body {
+  width: 380px;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(15px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  padding: 40px 30px;
+  text-align: center;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.25);
+}
+
+.card-body h1 {
+  font-size: 5rem;
+  color: #fff;
+  margin-bottom: 30px;
+  font-weight: 700;
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.card-btn {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.card-btn button {
+  padding: 12px 22px;
+  border: none;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  color: white;
+}
+
+/* Individual Button Colors */
+#decrement {
+  background: #ff4b5c;
+}
+
+#reset {
+  background: #ffb400;
+}
+
+#increment {
+  background: #00c853;
+}
+
+/* Hover Effect */
+.card-btn button:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+}
+
+#decrement:hover {
+  background: #ff2d41;
+}
+
+#reset:hover {
+  background: #ff9800;
+}
+
+#increment:hover {
+  background: #00a844;
+}
+
+/* Click Effect */
+.card-btn button:active {
+  transform: scale(0.95);
+}
+
+/* Responsive */
+@media (max-width: 450px) {
+  .card-body {
+    width: 95%;
+    padding: 30px 20px;
+  }
+
+  .card-body h1 {
+    font-size: 4rem;
+  }
+
+  .card-btn {
+    flex-direction: column;
+  }
+
+  .card-btn button {
+    width: 100%;
+  }
+}
