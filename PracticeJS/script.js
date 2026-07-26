@@ -31,9 +31,10 @@
 // }
 
 // (Ques 4) Check karo year leap year hai ya nahi.
-let year = 2024
-if( year % 4 == 0){
-    console.log("leap year");
-}else{
-    console.log("not leap year");
-}
+// let year = 2024
+// if( year % 4 == 0){
+//     console.log("leap year");
+// }else{
+//     console.log("not leap year");
+// }
+

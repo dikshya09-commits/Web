@@ -29,3 +29,35 @@
 // for(let i = 0; i<arr.length; i++){
 //     console.log(arr[i]);
 // }
+
+// GLOBAL-SCOPE
+// let age = 21;
+// function dikshya (){
+//     console.log(age);
+// }
+// dikshya();
+
+// let namaste = function(){
+//     console.log("hello world");
+// }
+// namaste();
+
+// let add = (num1, num2) => {
+//    let num3 = num1 + num2
+//    console.log("the number is:" + num3);
+// }
+// add(2,3);
+// add(1,2);
+
+// function greet(name){
+// console.log(name)
+// }
+// greet("dikshya");
+// greet("sejal");
+
+function test (){
+    let age = 27;
+    console.log(age);
+}
+test();
+console.log(age);
