@@ -1,0 +1,124 @@
+/* Google Font Import */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #1e1e2f, #11111d);
+  padding: 16px;
+}
+
+/* Calculator Container */
+.calculator {
+  width: 100%;
+  max-width: 360px;
+  background-color: #22252d;
+  padding: 24px 20px;
+  border-radius: 24px;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* Display Input Box */
+#inputBox {
+  width: 100%;
+  height: 80px;
+  background: transparent;
+  border: none;
+  outline: none;
+  text-align: right;
+  padding: 10px 15px;
+  font-size: 2.2rem;
+  font-weight: 500;
+  color: #ffffff;
+  pointer-events: none; /* Prevents manual typing since it's readonly */
+}
+
+#inputBox::placeholder {
+  color: #a5a5a5;
+}
+
+/* Grid Layout for Button Rows */
+.calculator > div:not(:first-child) {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+}
+
+/* Button Styling */
+button {
+  aspect-ratio: 1; /* Keeps buttons perfectly square */
+  border-radius: 16px;
+  border: none;
+  background-color: #292d36;
+  color: #ffffff;
+  font-size: 1.25rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  user-select: none;
+}
+
+/* Hover & Active Effects */
+button:hover {
+  background-color: #323743;
+  transform: translateY(-2px);
+}
+
+button:active {
+  transform: translateY(1px);
+  opacity: 0.8;
+}
+
+/* Operator Buttons Styling */
+button.operator {
+  color: #26e7a6;
+  background-color: #273335;
+}
+
+button.operator:hover {
+  background-color: #2e3d40;
+}
+
+/* Equal Button Styling */
+button.equalbtn {
+  background-color: #ff7675;
+  color: #ffffff;
+}
+
+button.equalbtn:hover {
+  background-color: #e86362;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 400px) {
+  .calculator {
+    padding: 16px 12px;
+    border-radius: 20px;
+  }
+
+  #inputBox {
+    height: 70px;
+    font-size: 1.8rem;
+  }
+
+  .calculator > div:not(:first-child) {
+    gap: 8px;
+  }
+
+  button {
+    font-size: 1.1rem;
+    border-radius: 12px;
+  }
+}
