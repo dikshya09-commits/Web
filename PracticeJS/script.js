@@ -38,30 +38,58 @@
 //     console.log("not leap year");
 // }
 
-//Find electricity Bill
+//FIND BMI
+// let weight = 75;
+// let height = 3.161284
+// let BMI = weight/height
+// if(BMI<= 18.5){
+//     console.log("Underweight");
+// }
+// else if(BMI>18.5 && BMI<=24.9){
+//     console.log('Normal');
+// }
+// else if (BMI>=25 && BMI<=29.9){
+//     console.log("Over Weight");
+// }
+// else{
+//     console.log("obese");
+// }
 
-function calculate(){
-    
-let input = document.getElementById('unit-input');
-let data = input.value;
-let result = document.getElementById('result'); 
+//CALCULATOR USING SWITCH
 
-if(data<=100){
-    let bill1 = data*5;
-    result.innerHTML = `
-    ${bill1}
-    `
-}
-else if(data>100 && data<200){
-    let bill2 = data*7;
-    result.innerHTML = `
-    ${bill2}
-    `
-}
-else{
-    let bill3 = data*10;
-    result.innerHTML = `
-    ${bill3}
-    `
-}
-}
+// let opr = "+";
+// let num1 = 2;
+// let num2 = 5;
+
+// switch (opr) {
+//   case "+":
+//     console.log(`The value of two no is:  ${num1+num2}`);
+//     break;
+
+//   case "-":
+//     console.log(`The value of two no is:  ${num1-num2}`);
+//     break;
+
+//   case "*":
+//     console.log(`The value of two no is:  ${num1-num2}`);
+//     break;
+
+//   case "%":
+//     console.log(`The value of two no is:  ${num1-num2}`);
+//     break;
+
+//     default:
+//         console.log("Invalid operator");
+// }
+
+//Albhabet UpperCase hai ya LowerCase
+
+// let char = "a"
+
+// if (char === char.toUpperCase() && char !== char.toLowerCase()) {
+//     console.log('Uppercase') ;
+//   } else if (char === char.toLowerCase() && char !== char.toUpperCase()) {
+//     console.log('Lowercase');
+//   } else {
+//     return 'Not an alphabetic letter'; 
+//   }
