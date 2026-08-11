@@ -93,3 +93,27 @@
 //   } else {
 //     return 'Not an alphabetic letter'; 
 //   }
+
+//add number + string
+// let num1 = 2;
+// num1 = num1+5;
+// num1 = num1 + 8;
+// num1 = num1 + '2'
+// console.log(num1);
+
+// star pattern
+// for(let i = 1; i <= 5 ; i++){
+//     let pattern =""
+//     for(let j =1; j <= i; j++){
+//         pattern = pattern + "*"
+//     }
+//      console.log(pattern);
+// }
+
+for(let i = 5; i >= 1; i--){
+    let pattern =""
+    for(let j =1; j <= i; j++){
+        pattern = pattern + "*"
+    }
+     console.log(pattern);
+}
